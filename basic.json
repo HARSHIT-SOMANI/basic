@@ -1,0 +1,19 @@
+{
+    "name": "Hello World",
+    "description": "Atlassian Connect app",
+    "key": "com.example.myapp",
+    "baseUrl": "https://8cc63b6caed2.ngrok.io",
+    "authentication": { "type":  "none" },
+    "apiVersion": 1,
+    "modules": {
+        "generalPages": [{
+                "url": "/",
+                "key": "hello-worldswsw",
+                "location": "system.top.navigation.bar",
+                "name": {
+                    "value": "new"
+                }
+            }
+        ]
+    }
+}
